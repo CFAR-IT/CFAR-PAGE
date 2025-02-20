@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    background-color: #282D3F;
+    padding: 0;
+}
+
+.header-menu {
+    flex: 1;
+    gap: 2rem;
+    background-color: #282D3F;
+    height: 10vh;
+    color: white;
+    padding: 2rem auto;
+}
+
+.hero-text-container {
+  text-align: center;
+  font-size: clamp(16px, 4vw, 48px); /* Ajusta según sea necesario */
+  font-weight: bold;
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.highlight-blue {
+  color: #1677ff; /* Cambia el color según el diseño */
+}
